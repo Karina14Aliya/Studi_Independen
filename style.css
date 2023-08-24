@@ -1,0 +1,217 @@
+*{
+    font-family: Tahoma;
+    margin: 0;
+}
+
+body{
+    background-color: #FAF0E6;
+    color: black;
+}
+
+h1 {
+    font-size: 2rem ;
+    padding: 20px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Header */
+.header{
+    display: flex;
+    padding: 10px;
+    background-color:#5C5470;
+}
+
+.header-logo{
+    width: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+}
+
+.header-logo img{
+    height: 100px;
+}
+
+.header-title{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-title p{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.header-title a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 170%;
+}
+
+
+/* Navbar */
+.navbar{
+    background-color:#352F44;
+    padding: 10px;
+    margin-top: 0px;
+    height: 20px;
+}
+
+.navbar-item{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navbar-item a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navbar-item a:hover{
+    background-color: #FAF0E6;
+    color: black;
+}
+
+
+/* Konten */
+main {
+    padding: 20px
+}
+
+section {
+    padding: 10px;
+}
+
+table{
+    border-spacing: 4px;
+    width: 100%;
+}
+
+#Goal-list {
+    line-height: 2;
+    word-spacing: 2;
+}
+#konten {
+    text-align: center;
+    padding: 20px;
+}
+
+.tabel-header{
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+
+.tabel-header th{
+    padding: 10px;
+    font-size: 16px;
+}
+
+tr td a{
+    text-decoration: none;
+    color: black;
+}
+
+tr td a::after{
+    text-decoration: none;
+    color: black;
+}
+
+.tabel-konten-ganjil{
+    background-color: #5C5470;
+}
+
+.tabel-konten-genap{
+    background-color: #B9B4C7;
+}
+
+.tabel-konten-ganjil:hover, .tabel-konten-genap:hover{
+    background-color:#82748a;
+}
+
+td , th{
+    padding: 50px;
+    text-align: center;
+}
+
+td>img{
+    width: 100px;
+}
+
+#Display-new {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Profile {
+    padding: 20px;
+    background-color: #796185;
+    border-radius: 20px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+
+
+/* Form */
+form {
+    text-align: center;
+    padding: 20px;
+}
+.form-group{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group label{
+    display: block;
+    font-size: 18px;
+}
+
+.form-group input{
+    margin-top: 10px;
+    height: 20px;
+    width: 50%;
+}
+
+.form-group textarea{
+    display: block;
+    margin-top: 10px;
+    height: 150px;
+    width: 50%;
+}
+
+input {
+    padding: 10px;
+}
+
+.btn{
+    width: 100px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #796185;
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+
+.btn:hover{
+    scale: 1.03;
+    background-color: #352F44;
+}
